@@ -25,10 +25,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="StreetParade.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/StreetParade.py">
+        <entry file="file://$PROJECT_DIR$/StackQueue/StreetParade.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28132388" vertical-offset="510" max-vertical-offset="952">
-              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.19621749" vertical-offset="478" max-vertical-offset="952">
+              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -113,6 +113,7 @@
       <recent name="C:\Users\USER\PycharmProjects\BigOCoding" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\PycharmProjects\BigOCoding\StackQueue" />
       <recent name="C:\Users\USER\PycharmProjects\BigOCoding\Buoi1" />
     </key>
   </component>
@@ -190,7 +191,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="BigOCoding" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StreetParade.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\USER\PycharmProjects\BigOCoding\StackQueue\StreetParade.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PyDebugRunner" />
@@ -397,10 +398,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/StreetParade.py">
+    <entry file="file://$PROJECT_DIR$/StackQueue/StreetParade.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28132388" vertical-offset="510" max-vertical-offset="952">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.19621749" vertical-offset="478" max-vertical-offset="952">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
           <folding />
         </state>
       </provider>
