@@ -23,7 +23,7 @@ def IsOperator(Arg):
 def Handle4OneInput(Arg):
     StackVal = []
     StackOper =[]
-    ListPrint = []
+    PrintStr = ""
     for c in Arg:
         if(IsVal(c)==1):
             StackVal.append(c)
@@ -37,14 +37,14 @@ def Handle4OneInput(Arg):
              if(len(StackVal)>=1):
                b = StackVal.pop()
             if(len(StackOper)!=0):
-                if(a!=""):
-                    ListPrint.append(a)
                 if(b!=""):
-                    ListPrint.append(a)
+                    PrintStr +=b
+                if(a!=""):
+                    PrintStr +=a
                 a=""
                 b=""
-                ListPrint.append(StackOper.pop())
-    print(ListPrint)
+                PrintStr +=StackOper.pop()
+    print(PrintStr)
 
     return 0
 
@@ -54,5 +54,5 @@ if __name__ == '__main__':
     while(N>0):
         Arg.append(raw_input())
         N -=1
-    print(Handle(Arg))
+    Handle(Arg)
     pass

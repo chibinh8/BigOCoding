@@ -27,8 +27,8 @@
       <file leaf-file-name="ONP.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StackQueue/ONP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63829786" vertical-offset="648" max-vertical-offset="1071">
-              <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.24113475" vertical-offset="51" max-vertical-offset="1071">
+              <caret line="9" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -469,8 +469,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StackQueue/ONP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63829786" vertical-offset="648" max-vertical-offset="1071">
-          <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.24113475" vertical-offset="51" max-vertical-offset="1071">
+          <caret line="9" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="8" />
           <folding />
         </state>
       </provider>
