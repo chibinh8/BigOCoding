@@ -34,11 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Museum.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Museum.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/String/Museum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3617021" vertical-offset="0" max-vertical-offset="423">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vitaly.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/String/Vitaly.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.41607565" vertical-offset="28" max-vertical-offset="561">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -57,6 +67,7 @@
         <option value="$PROJECT_DIR$/StackQueue/ONP.py" />
         <option value="$PROJECT_DIR$/StackQueue/MMASS.py" />
         <option value="$PROJECT_DIR$/String/Museum.py" />
+        <option value="$PROJECT_DIR$/String/Vitaly.py" />
       </list>
     </option>
   </component>
@@ -159,26 +170,7 @@
       <recent name="C:\Users\USER\PycharmProjects\BigOCoding\Buoi1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Museum">
-    <configuration default="false" name="Chores" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="BigOCoding" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chores.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Vitaly">
     <configuration default="false" name="StreetParade" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,6 +247,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="BigOCoding" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String/Museum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Vitaly" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="BigOCoding" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String/Vitaly.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PyDebugRunner" />
@@ -386,19 +399,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Chores" />
-      <item index="1" class="java.lang.String" itemvalue="Python.StreetParade" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ONP" />
-      <item index="3" class="java.lang.String" itemvalue="Python.MMASS" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Museum" />
+      <item index="0" class="java.lang.String" itemvalue="Python.StreetParade" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ONP" />
+      <item index="2" class="java.lang.String" itemvalue="Python.MMASS" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Museum" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Vitaly" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Museum" />
-        <item index="1" class="java.lang.String" itemvalue="Python.MMASS" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ONP" />
-        <item index="3" class="java.lang.String" itemvalue="Python.StreetParade" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Chores" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Vitaly" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Museum" />
+        <item index="2" class="java.lang.String" itemvalue="Python.MMASS" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ONP" />
+        <item index="4" class="java.lang.String" itemvalue="Python.StreetParade" />
       </list>
     </recent_temporary>
   </component>
@@ -465,7 +478,7 @@
           <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="26" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -518,8 +531,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/String/Museum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3617021" vertical-offset="0" max-vertical-offset="423">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/Vitaly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41607565" vertical-offset="28" max-vertical-offset="561">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding />
         </state>
       </provider>
