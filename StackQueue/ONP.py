@@ -1,4 +1,4 @@
-__author__ = 'USER'
+__author__ = 'Binh Le'
 
 def EvaluateInput(Arg):
     if(Arg==[]):
@@ -38,7 +38,6 @@ def Handle4OneInput(Arg):
            PreIsClo = True
         elif(c==")"):
             a = ""
-            b = ""
             if(len(StackVal)>=1):
              a = StackVal.pop()
             if(len(StackOper)!=0):
