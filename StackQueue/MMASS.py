@@ -41,8 +41,11 @@ def Handle(Arg):
        elif(c>="2" and c<="9"):
            if(StackRecr==True):
              MassInPa = MassInPa*(int(c))
-             if(c==Arg[len(Arg)-1]):
+             if(c==Arg[len(Arg)-1] and len(StackLetter)!=0):
                Mass += MassInPa
+             elif(c==Arg[len(Arg)-1] and len(StackLetter)==0):
+                 Mass = Mass*(int(c))
+
            else:
              StackLetter.append(c)
 
