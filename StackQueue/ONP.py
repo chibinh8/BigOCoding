@@ -24,25 +24,27 @@ def Handle4OneInput(Arg):
     StackVal = []
     StackOper =[]
     PrintStr = ""
+    PreIsClo =False
     for c in Arg:
         if(IsVal(c)==1):
-            StackVal.append(c)
+            if(PreIsClo==True):
+                PreIsClo =False
+                PrintStr +=c
+            else:
+                StackVal.append(c)
         elif(IsOperator(c)==1):
             StackOper.append(c)
+        elif(c=="("):
+           PreIsClo = True
         elif(c==")"):
             a = ""
             b = ""
             if(len(StackVal)>=1):
              a = StackVal.pop()
-             if(len(StackVal)>=1):
-               b = StackVal.pop()
             if(len(StackOper)!=0):
-                if(b!=""):
-                    PrintStr +=b
                 if(a!=""):
                     PrintStr +=a
                 a=""
-                b=""
                 PrintStr +=StackOper.pop()
     print(PrintStr)
 

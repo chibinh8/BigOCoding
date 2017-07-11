@@ -27,8 +27,8 @@
       <file leaf-file-name="ONP.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StackQueue/ONP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24113475" vertical-offset="51" max-vertical-offset="1071">
-              <caret line="9" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.43735224" vertical-offset="546" max-vertical-offset="1105">
+              <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -431,13 +431,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/StackQueue/ONP.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
@@ -469,8 +462,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StackQueue/ONP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24113475" vertical-offset="51" max-vertical-offset="1071">
-          <caret line="9" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.43735224" vertical-offset="546" max-vertical-offset="1105">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
           <folding />
         </state>
       </provider>
