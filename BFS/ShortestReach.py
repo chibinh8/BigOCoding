@@ -23,6 +23,7 @@ def Handle(Arg):
    while(len(QueueRun)>0):
         PopL = QueueRun.popleft()
         ParentNode = PopL[0]
+        print(PopL)
         if(len(PopL)>1):
          QueueRun.extend(PopL[1])
         ListC = list(Graph[int(ParentNode)-1])
@@ -30,12 +31,11 @@ def Handle(Arg):
           if(Visited[int(Ele)-1]==False):
               Visited[int(Ele)-1]=True
               Path[int(Ele)-1] = ParentNode
-              for cc in Graph[int(Ele)-1]:
-                  if(int(cc)>int(Ele)):
-                    QueueRun.extend(cc)
+              if((int(Ele)>int(ParentNode))):
+               QueueRun.extend(Ele)
         print(QueueRun)
    print(Path)
-
+   print(Visited)
    return 0
 
 if __name__ == '__main__':
