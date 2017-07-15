@@ -16,9 +16,9 @@ def Handle(Arg):
    for c in range(0,int(Arg[0][1])):
         Graph[int(Arg[c+1][0])-1].append(Arg[c+1][1])
         Graph[int(Arg[c+1][1])-1].append(Arg[c+1][0])
-   QueueRun.extend(Arg[len(Arg)-1])
-   Visited[0] = True
-   ParentNode = Arg[len(Arg)-1]
+   QueueRun.append(Arg[len(Arg)-1])
+   ParentNode = Arg[len(Arg)-1][0]
+   Visited[int(ParentNode)-1] = True
    print(Graph)
    while(len(QueueRun)>0):
         PopL = QueueRun.popleft()
