@@ -28,7 +28,27 @@
         <entry file="file://$PROJECT_DIR$/StackQueue/MMASS.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="607" max-vertical-offset="1088">
-              <caret line="42" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="8" />
+              <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreetParade.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StackQueue/StreetParade.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="376" max-vertical-offset="952">
+              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ONP.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StackQueue/ONP.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="58" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -37,18 +57,30 @@
       <file leaf-file-name="Museum.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/String/Museum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="16" selection-end-column="8" />
+              <folding>
+                <element signature="e#44#230#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vitaly.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/String/Vitaly.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="748">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vitaly.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/String/Vitaly.py">
+      <file leaf-file-name="ShortestReach.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BFS/ShortestReach.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43735224" vertical-offset="121" max-vertical-offset="748">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.3356974" vertical-offset="113" max-vertical-offset="629">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -68,6 +100,7 @@
         <option value="$PROJECT_DIR$/StackQueue/MMASS.py" />
         <option value="$PROJECT_DIR$/String/Museum.py" />
         <option value="$PROJECT_DIR$/String/Vitaly.py" />
+        <option value="$PROJECT_DIR$/BFS/ShortestReach.py" />
       </list>
     </option>
   </component>
@@ -100,7 +133,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -147,8 +179,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BigOCoding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BigOCoding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BFS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,28 +217,7 @@
       <recent name="C:\Users\USER\PycharmProjects\BigOCoding\Buoi1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Vitaly">
-    <configuration default="false" name="StreetParade" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="BigOCoding" />
-      <option name="SCRIPT_NAME" value="C:\Users\USER\PycharmProjects\BigOCoding\StackQueue\StreetParade.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.ShortestReach">
     <configuration default="false" name="ONP" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,6 +294,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="BigOCoding" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String/Vitaly.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ShortestReach" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BFS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="BigOCoding" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BFS/ShortestReach.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PyDebugRunner" />
@@ -399,19 +446,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.StreetParade" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ONP" />
-      <item index="2" class="java.lang.String" itemvalue="Python.MMASS" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Museum" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Vitaly" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ONP" />
+      <item index="1" class="java.lang.String" itemvalue="Python.MMASS" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Museum" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Vitaly" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ShortestReach" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Vitaly" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Museum" />
-        <item index="2" class="java.lang.String" itemvalue="Python.MMASS" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ONP" />
-        <item index="4" class="java.lang.String" itemvalue="Python.StreetParade" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ShortestReach" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Vitaly" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Museum" />
+        <item index="3" class="java.lang.String" itemvalue="Python.MMASS" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ONP" />
       </list>
     </recent_temporary>
   </component>
@@ -477,12 +524,43 @@
           <line>44</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/BFS/ShortestReach.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/StackQueue/MMASS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="607" max-vertical-offset="1088">
+          <caret line="42" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/Museum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="374">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#44#230#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/Vitaly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/StackQueue/MMASS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
@@ -506,41 +584,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StackQueue/ONP.py">
+    <entry file="file://$PROJECT_DIR$/String/Vitaly.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3617021" vertical-offset="0" max-vertical-offset="1088">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="13" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="748">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StackQueue/StreetParade.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5824468" vertical-offset="51" max-vertical-offset="952">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StackQueue/MMASS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="607" max-vertical-offset="1088">
-          <caret line="42" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="8" />
+          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/String/Museum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="e#44#230#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StackQueue/StreetParade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="376" max-vertical-offset="952">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/String/Vitaly.py">
+    <entry file="file://$PROJECT_DIR$/StackQueue/ONP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43735224" vertical-offset="121" max-vertical-offset="748">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="58" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BFS/ShortestReach.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3356974" vertical-offset="113" max-vertical-offset="629">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding />
         </state>
       </provider>
