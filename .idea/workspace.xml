@@ -67,8 +67,8 @@
       <file leaf-file-name="BishuandhisGirlfriend.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DFS/BishuandhisGirlfriend.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.536643" vertical-offset="283" max-vertical-offset="969">
-              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.26649746" vertical-offset="779" max-vertical-offset="1173">
+              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -326,27 +326,6 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="BishuandhisGirlfriend" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DFS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="BigOCoding" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DFS/BishuandhisGirlfriend.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -469,20 +448,40 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="BishuandhisGirlfriend" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DFS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="BigOCoding" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DFS/BishuandhisGirlfriend.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.MMASS" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Museum" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Vitaly" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ShortestReach" />
-      <item index="4" class="java.lang.String" itemvalue="Python.BishuandhisGirlfriend" />
+      <item index="0" class="java.lang.String" itemvalue="Python.BishuandhisGirlfriend" />
+      <item index="1" class="java.lang.String" itemvalue="Python.MMASS" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Museum" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Vitaly" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ShortestReach" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.BishuandhisGirlfriend" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ShortestReach" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Vitaly" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Museum" />
-        <item index="4" class="java.lang.String" itemvalue="Python.MMASS" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.ShortestReach" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Vitaly" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Museum" />
+        <item index="3" class="java.lang.String" itemvalue="Python.MMASS" />
       </list>
     </recent_temporary>
   </component>
@@ -542,7 +541,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="35" />
+      <option name="time" value="41" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -796,8 +795,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DFS/BishuandhisGirlfriend.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.536643" vertical-offset="283" max-vertical-offset="969">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.26649746" vertical-offset="779" max-vertical-offset="1173">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
           <folding />
         </state>
       </provider>
