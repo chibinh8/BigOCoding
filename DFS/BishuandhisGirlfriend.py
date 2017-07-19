@@ -12,6 +12,7 @@ def Handle(Arg, Arg1):
    N = len(Arg)+1
    ListGirl = []
    Distance = 0
+   ID = 0
    for c in Arg1:
        ListGirl.append(c[0])
    for c in range(0,N):
@@ -21,6 +22,10 @@ def Handle(Arg, Arg1):
    for c in range(0,N-1):
         Graph[int(Arg[c][0])-1].append(int(Arg[c][1]))
         Graph[int(Arg[c][1])-1].append(int(Arg[c][0]))
+   for c in Graph[0]:
+       if(ListGirl.count(str(c))>0):
+         ID = int(c)
+         break
    StackRun.append(1)
    ParentNode = 1
    Visited[int(ParentNode)-1] = True
@@ -32,6 +37,7 @@ def Handle(Arg, Arg1):
         ParentNode = int(PopL)
         ListC = list(Graph[int(ParentNode)-1])
         if(Dist<MinDist and Dist>=1 and Arg1.count(ParentNode)>0):
+            ID = ParentNode
             MinDist = Dist
         if(ListGirl.count(str(ParentNode))>0):
             Dist = PrevDist
@@ -44,7 +50,7 @@ def Handle(Arg, Arg1):
               Path[int(Ele)-1] = ParentNode
               if((int(Ele)>int(ParentNode))):
                StackRun.append(Ele)
-   print(MinDist)
+   print(ID)
    return 0
 
 if __name__ == '__main__':
