@@ -3,6 +3,13 @@ __author__ = 'USER'
 from collections import deque
 
 #Link: https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/practice-problems/algorithm/bishu-and-his-girlfriend/
+def FindFirstNode(Gra, ListGirl):
+   ID =0
+   for d in range(0,len(Gra)):
+       for c in Gra[d]:
+           if(ListGirl.count(str(c))>0):
+             ID = int(c)
+             return ID
 
 def Handle(Arg, Arg1):
    StackRun  = []
@@ -22,10 +29,7 @@ def Handle(Arg, Arg1):
    for c in range(0,N-1):
         Graph[int(Arg[c][0])-1].append(int(Arg[c][1]))
         Graph[int(Arg[c][1])-1].append(int(Arg[c][0]))
-   for c in Graph[0]:
-       if(ListGirl.count(str(c))>0):
-         ID = int(c)
-         break
+   ID = FindFirstNode(Graph, ListGirl)
    StackRun.append(1)
    ParentNode = 1
    Visited[int(ParentNode)-1] = True
