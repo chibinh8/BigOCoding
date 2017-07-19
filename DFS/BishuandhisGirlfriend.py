@@ -18,8 +18,7 @@ def Handle(Arg, Arg1):
    for c in range(0,N-1):
         Graph[int(Arg[c][0])-1].append(int(Arg[c][1]))
         Graph[int(Arg[c][1])-1].append(int(Arg[c][0]))
-   for c in Arg[0]:
-       StackRun.append(c)
+   StackRun.append(1)
    ParentNode = 1
    Visited[int(ParentNode)-1] = True
    print(Arg)
@@ -28,13 +27,9 @@ def Handle(Arg, Arg1):
         PopL = StackRun.pop()
         ParentNode = int(PopL)
         ListC = list(Graph[int(ParentNode)-1])
-        # if(Visited[ParentNode-1]==False):
-        #       Visited[ParentNode-1]=True
         for Ele in ListC:
           if(Visited[int(Ele)-1]==False):
               Visited[int(Ele)-1]=True
-              if(ParentNode==6):
-                  pass
               Path[int(Ele)-1] = ParentNode
               if((int(Ele)>int(ParentNode))):
                StackRun.append(Ele)
