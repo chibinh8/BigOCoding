@@ -44,7 +44,6 @@ def Handle(Arg, Arg1):
               Path[int(Ele)-1] = ParentNode
               if((int(Ele)>int(ParentNode))):
                StackRun.append(Ele)
-
    print(MinDist)
    return 0
 
