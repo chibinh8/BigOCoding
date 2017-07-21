@@ -9,48 +9,42 @@ def ValConve(c):
         return 1
     return 0
 
+def IsVal(Arg):
+    if((Arg=='(')or(Arg==')')or(Arg=='C')or(Arg=='O')or(Arg=='H')):
+        return 0
+    return 1
+
+def IsLetter(Arg):
+    if((Arg=='C')or(Arg=='O')or(Arg=='H')):
+        return 1
+    return 0
+
 def Handle(Arg):
-   MassInPa = 0
    Mass = 0
-   OpenParentThe = False
-   StackRecr = False
-   StackLetter = []
+   StackMass = []
+   MassTemp = 0
+   OpenPar = False
+   Temp = 0
+   TempSum = 0
    for c in Arg:
-       if(c=="("):
-          OpenParentThe = True
-          StackLetter.append(c)
-          if(MassInPa!=0 and (StackRecr==True)):
-              Mass += MassInPa
-              MassInPa =0
-              StackRecr = False
-       elif(c=="C" or c=="O" or c=="H"):
-          if(OpenParentThe==True):
-            StackLetter.append(c)
-          else:
-            Mass += ValConve(c)
-       elif(c==")"):
-          OpenParentThe = False
-          while(StackRecr==False):
-              ci = StackLetter.pop()
-              if((ci>="2" and ci<="9")):
-                MassInPa += int(ValConve(StackLetter.pop()))*(int(ci))
-              elif(ci=="("):
-                StackRecr = True
-              else:
-                MassInPa += int(ValConve(ci))
-       elif(c>="2" and c<="9"):
-           if(StackRecr==True):
-             MassInPa = MassInPa*(int(c))
-             if(c==Arg[len(Arg)-1] and len(StackLetter)!=0):
-               Mass += MassInPa
-             elif(c==Arg[len(Arg)-1] and len(StackLetter)==0):
-                 Mass = Mass*(int(c))
-
-           else:
-             StackLetter.append(c)
-
-           #   Mass += MassInPa*(int(c))
-   return Mass
+      if(c=="("):
+        StackMass.append(-1)
+      elif(IsLetter(c)==1):
+          StackMass.append(ValConve(c))
+      elif(IsVal(c)==1):
+          MassTemp = int(c)*StackMass.pop()
+          StackMass.append(MassTemp)
+      elif(c==")"):
+        while(OpenPar==False):
+            Temp = StackMass.pop()
+            if(Temp==-1):
+                OpenPar =True
+                StackMass.append(TempSum)
+            else:
+                TempSum += Temp
+        OpenPar = False
+        TempSum =0
+   return StackMass.pop()
 
 if __name__ == '__main__':
     Arg = []
