@@ -44,7 +44,11 @@ def Handle(Arg):
                 TempSum += Temp
         OpenPar = False
         TempSum =0
-   return StackMass.pop()
+   while(len(StackMass)!=0):
+       c = StackMass.pop()
+       if(c!=-1):
+           Mass +=c
+   return Mass
 
 if __name__ == '__main__':
     Arg = []
