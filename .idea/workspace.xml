@@ -27,8 +27,8 @@
       <file leaf-file-name="GuiltyPrince.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BFS/GuiltyPrince.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40189126" vertical-offset="0" max-vertical-offset="1445">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.040189125" vertical-offset="0" max-vertical-offset="1445">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -518,13 +518,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/BFS/GuiltyPrince.py</url>
-          <line>58</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="53" />
     </breakpoint-manager>
     <watches-manager />
@@ -891,8 +884,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BFS/GuiltyPrince.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40189126" vertical-offset="0" max-vertical-offset="1445">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.040189125" vertical-offset="0" max-vertical-offset="1445">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
