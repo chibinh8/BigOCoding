@@ -3,7 +3,8 @@ __author__ = 'Binh Le'
 from collections import deque
 
 #Link: http://lightoj.com/volume_showproblem.php?problem=1012
-#Note: The evaluate engine of Lightoj does not support Python :(
+#Note: The evaluating engine of Lightoj does not support Python :(
+
 def IsDot(x,y,Graph,Dimen,Vis):
     if(x<0 or y<0 or x>=Dimen[1]or y>=Dimen[0]or Vis[x][y]==True):
         return []
