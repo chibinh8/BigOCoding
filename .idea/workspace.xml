@@ -24,21 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GuiltyPrince.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BFS/GuiltyPrince.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DuduServiceMaker.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DFS/DuduServiceMaker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40189126" vertical-offset="408" max-vertical-offset="1088">
-              <caret line="34" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.3617021" vertical-offset="0" max-vertical-offset="1496">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -47,8 +37,8 @@
       <file leaf-file-name="BishuandhisGirlfriend.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DFS/BishuandhisGirlfriend.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343">
-              <caret line="0" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1343">
+              <caret line="49" column="20" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -78,9 +68,9 @@
         <option value="$PROJECT_DIR$/String/Museum.py" />
         <option value="$PROJECT_DIR$/String/Vitaly.py" />
         <option value="$PROJECT_DIR$/BFS/ShortestReach.py" />
-        <option value="$PROJECT_DIR$/DFS/BishuandhisGirlfriend.py" />
         <option value="$PROJECT_DIR$/StackQueue/MMASS.py" />
         <option value="$PROJECT_DIR$/BFS/GuiltyPrince.py" />
+        <option value="$PROJECT_DIR$/DFS/BishuandhisGirlfriend.py" />
         <option value="$PROJECT_DIR$/DFS/DuduServiceMaker.py" />
       </list>
     </option>
@@ -114,7 +104,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -191,6 +180,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,27 +283,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="BigOCoding" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BFS/GuiltyPrince.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="DuduServiceMaker" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DFS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="BigOCoding" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DFS/DuduServiceMaker.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PyDebugRunner" />
@@ -465,21 +434,41 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="DuduServiceMaker" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DFS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="BigOCoding" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DFS/DuduServiceMaker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.BishuandhisGirlfriend" />
-      <item index="1" class="java.lang.String" itemvalue="Python.MMASS" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Vitaly" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ShortestReach" />
-      <item index="4" class="java.lang.String" itemvalue="Python.GuiltyPrince" />
-      <item index="5" class="java.lang.String" itemvalue="Python.DuduServiceMaker" />
+      <item index="1" class="java.lang.String" itemvalue="Python.DuduServiceMaker" />
+      <item index="2" class="java.lang.String" itemvalue="Python.MMASS" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Vitaly" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ShortestReach" />
+      <item index="5" class="java.lang.String" itemvalue="Python.GuiltyPrince" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.DuduServiceMaker" />
-        <item index="1" class="java.lang.String" itemvalue="Python.GuiltyPrince" />
-        <item index="2" class="java.lang.String" itemvalue="Python.MMASS" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ShortestReach" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Vitaly" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.GuiltyPrince" />
+        <item index="1" class="java.lang.String" itemvalue="Python.MMASS" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ShortestReach" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Vitaly" />
       </list>
     </recent_temporary>
   </component>
@@ -539,7 +528,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="62" />
+      <option name="time" value="71" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -591,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,22 +879,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DFS/BishuandhisGirlfriend.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343">
-          <caret line="0" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1343">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DFS/DuduServiceMaker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40189126" vertical-offset="408" max-vertical-offset="1088">
-          <caret line="34" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.3617021" vertical-offset="0" max-vertical-offset="1496">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding />
         </state>
       </provider>
