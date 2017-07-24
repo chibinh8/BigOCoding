@@ -33,8 +33,9 @@ def Handle(Arg, Arg1):
                   DepenCnt +=1
        if(DepenCnt>1):
            return "SIM"
-       else:
-           return "NAO"
+       DepenCnt = 0
+       StackRun = []
+       Visited = []
    return  "NAO"
 
 if __name__ == '__main__':

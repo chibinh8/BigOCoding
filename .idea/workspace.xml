@@ -37,8 +37,8 @@
       <file leaf-file-name="DuduServiceMaker.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DFS/DuduServiceMaker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.356974" vertical-offset="648" max-vertical-offset="1071">
-              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.40189126" vertical-offset="408" max-vertical-offset="1088">
+              <caret line="34" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -539,13 +539,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/DFS/DuduServiceMaker.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="62" />
     </breakpoint-manager>
     <watches-manager />
@@ -913,8 +906,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DFS/DuduServiceMaker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.356974" vertical-offset="648" max-vertical-offset="1071">
-          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.40189126" vertical-offset="408" max-vertical-offset="1088">
+          <caret line="34" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="8" />
           <folding />
         </state>
       </provider>
