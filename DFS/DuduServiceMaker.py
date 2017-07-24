@@ -11,8 +11,6 @@ def Handle(Arg, Arg1):
    Visited = []
    Graph = []
    N = Arg1[1]
-   DepenCnt = 0
-   PrevDepenCnt =0
    for c in range(0,Arg1[0]):
        Path.append(-1)
        Visited.append(False)
@@ -23,43 +21,20 @@ def Handle(Arg, Arg1):
        if(Graph[cd-1]!=[]):
            StackRun.append(cd)
            ParentNode = cd
+           Visited[ParentNode-1]=True
            while(len(StackRun)>0):
                 PopL = StackRun.pop()
                 ParentNode = int(PopL)
-                #print(ParentNode)
                 ListC = list(Graph[int(ParentNode)-1])
-                if(Visited[ParentNode-1]==True):
-                    Indicate = False
-                    for dc in ListC:
-                        if(Visited[dc-1]==False):
-                          Indicate = True
-                    if(Indicate==False):
-                      DepenCnt = PrevDepenCnt
-                      if(DepenCnt>1):
-                          print(DepenCnt)
-                          return "SIM"
-                else:
-                    if(ListC!=[]):
-                        DepenCnt +=1
-                        PrevDepenCnt = DepenCnt
-                        Visited[ParentNode-1]=True
-                    else:
-                        DepenCnt = PrevDepenCnt
-                        if(DepenCnt>1):
-                               print(DepenCnt)
-                               return "SIM"
                 for Ele in ListC:
                   if(Visited[int(Ele)-1]==False):
                       StackRun.append(Ele)
-
-       if(DepenCnt>1):
-           print(DepenCnt)
-           return "SIM"
-       DepenCnt = 0
-       StackRun = []
-       PrevDepenCnt =0
-       for c in range(0,Arg1[0]):
-           Visited[c] = False
+                      Visited[int(Ele)-1]=True
+                  else:
+                      return "SIM"
+           StackRun = []
+           for c in range(0,Arg1[0]):
+               Visited[c] = False
    return  "NAO"
 
 if __name__ == '__main__':
