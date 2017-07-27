@@ -3,6 +3,7 @@ __author__ = 'USER'
 from collections import deque
 
 #Link: https://www.urionlinejudge.com.br/judge/en/problems/view/1610
+
 def IsParentInList(Node,Grap,Path):
     FoundPath = list(Path)
     IsFound = False
@@ -32,7 +33,7 @@ def Handle(Arg, Arg1):
          Graph[int(Arg[c][0])-1].append(int(Arg[c][1]))
    N=len(Graph)
    for cd in range(1,Arg1[0]+1) :
-       if(Graph[cd-1]!=[]):
+       if(Graph[cd-1]!=[] and Visited[cd-1]==False):
            StackRun.append(cd)
            ParentNode = cd
            Visited[ParentNode-1]=True
@@ -45,18 +46,17 @@ def Handle(Arg, Arg1):
                     PathTrace = IsPaLis[1]
                 PathTrace.append(ParentNode)
                 ListC = list(Graph[int(ParentNode)-1])
-                for Ele in ListC:
-                  if(Visited[int(Ele)-1]==False):
-                      StackRun.append(Ele)
-                      Visited[int(Ele)-1]=True
-                      Path[int(Ele)-1] = ParentNode
-                  if(PathTrace.count(Ele)==1):
-                      return "SIM"
+                if(ListC!=[]):
+                    for Ele in ListC:
+                      if(Visited[int(Ele)-1]==False):
+                          StackRun.append(Ele)
+                          Visited[int(Ele)-1]=True
+                          Path[int(Ele)-1] = ParentNode
+                      if(PathTrace.count(Ele)==1):
+                          return "SIM"
            StackRun = []
            PathTrace =[]
-           for c in range(0,Arg1[0]):
-               Visited[c] = False
-               Path[c] =-1
+
    return  "NAO"
 
 if __name__ == '__main__':
