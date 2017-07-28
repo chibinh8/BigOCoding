@@ -1,4 +1,4 @@
-__author__ = 'USER'
+__author__ = 'Binh Le'
 try:
     import Queue as Q  # ver. < 3.0
 except ImportError:
