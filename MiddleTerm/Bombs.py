@@ -20,8 +20,8 @@ def BFS(Arg,DimenIn,Source,Desti,Path,Visited):
    QueueRun  = deque()
    LCo = [[0,1],[1,0],[-1,0],[0,-1]]
    StartPoint = [-1,-1]
-   StartPoint[0] = 0
-   StartPoint[1] = 0
+   StartPoint[0] = Source[0]
+   StartPoint[1] = Source[1]
    QueueRun.append(StartPoint)
    Visited[StartPoint[0]*DimenIn[1]+StartPoint[1]] = True
    Dlocaltime = time.time()
