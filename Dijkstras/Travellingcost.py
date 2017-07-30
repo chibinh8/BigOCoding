@@ -29,7 +29,6 @@ if __name__ == '__main__':
     LDis = [1e9]*505
     Graph = [[] for x in range(0,505)]
     for c in range(0,N):
-        Graph.append([])
         Inpath = [int(x) for x in input().split()]
         Graph[Inpath[0]].append([Inpath[1],Inpath[2]]) #v,w
         Graph[Inpath[1]].append([Inpath[0],Inpath[2]]) #u,w
