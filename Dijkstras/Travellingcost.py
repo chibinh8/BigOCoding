@@ -37,6 +37,7 @@ if __name__ == '__main__':
     for c in range(0,NDes):
         Des.append((int)(input().split()[0]))
     [LDis,Path] = Dijkstra(Graph,Source,LDis)
+
     for v in Des:
         if(LDis[v]!=1e9):
             print(LDis[v])
