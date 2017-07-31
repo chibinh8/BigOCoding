@@ -6,13 +6,6 @@ except ImportError:
     import queue as Q
 from heapq import *
 
-def FindCostUV(u,v,InpathAdd):
-    Mind = 20001
-    for c in InpathAdd:
-        if(c[0]==u and c[1]==v):
-            if(Mind>int(c[2])):
-              Mind = int(c[2])
-    return Mind
 def Dijkstra(Graph,Source,LDis):
     PQ = []
     Path = [-1]*len(Graph)
@@ -49,8 +42,6 @@ if __name__ == '__main__':
         [LDis,Path] = Dijkstra(Graph,Tcity,LDis)
         print("Case "+ str(S-T+1)+":")
         for c in range(0,n):
-                MaxC = 0
-                ind =c
                 if(LDis[c]!=1e9):
                   print(LDis[c])
                 else:
