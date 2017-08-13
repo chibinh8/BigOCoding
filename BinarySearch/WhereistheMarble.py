@@ -7,13 +7,13 @@ def BinarySearch(LMarble,Target):
     pos=-1
     while lo <= hi:
           mid = int(lo + (hi-lo)/2)
-          if LMarble[mid] == Target:
+          if LMarble[mid][0] == Target:
                pos = mid
                for cd in range(lo,mid):
-                   if LMarble[cd] == Target:
+                   if LMarble[cd][0] == Target:
                         return cd
                return pos
-          elif LMarble[mid] < Target:
+          elif LMarble[mid][0] < Target:
              lo = mid+1
           else:
              hi = mid-1
@@ -33,7 +33,7 @@ if __name__ == '__main__':
         LMarble = []
         LQuery = []
         for c in range(0,N):
-            LMarble.append(int(sys.stdin.readline().strip().split()[0]))
+            LMarble.append([int(sys.stdin.readline().strip().split()[0]),c])
         for c in range(0,Q):
             LQuery.append(int(sys.stdin.readline().strip().split()[0]))
         print("CASE# "+str(numTC+1)+":")

@@ -1,5 +1,10 @@
 __author__ = 'Binh Le'
 
+#BFS is to check if t can go from current Node to last node
+def BFS(u, v, Graph):
+
+    return 0
+
 def BellmanFord(Graph,N,M,ActlNode):
     if(M>N):
         N=M
@@ -21,13 +26,16 @@ def BellmanFord(Graph,N,M,ActlNode):
             w = Graph[i][2]
             if((LDis[u]+w)>LDis[v] and LDis[u]!=-1e9):
                 PathNega.append(u)
+                break
     Idex = ActlNode-1
+    IsNeg = False
     while(Path[Idex]!=-1):
         u = Path[Idex]-1
         Idex = u
         if(LDis[u]<=0):
             return 0
         elif(PathNega.count(u)!=0):
+            IsNeg = True
             return 1
     if(Idex!=0):
         return 0
@@ -43,13 +51,11 @@ if __name__ == '__main__':
         M = 0
         MaxNode = NNode
         Graph = []
-        LWsave =[]
         if(MaxNode>1):
             for d in range(0,NNode):
                 E = [int(x) for x in input().split()]
                 if(len(E)==1):
                     Graph.append([d+1,0,E[0]])
-                    LWsave.append([d+1,E[0]])
                 elif(len(E)>2 and E[1]<=len(E)-2):
                     M += E[1]
                     Ec = E[2:]
@@ -60,7 +66,6 @@ if __name__ == '__main__':
                             Graph.append([d+1,E[c+2],E[0]])
                     else:
                         Graph.append([d+1,0,E[0]])
-                    LWsave.append([d+1,E[0]])
             if(BellmanFord(Graph,MaxNode,M,NNode)==1):
                 print("winnable")
             else:
