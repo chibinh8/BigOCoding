@@ -1,23 +1,16 @@
 __author__ = 'Binh Le'
 import sys
 
-def BinarySearch(LMarble,Target):
-    lo =0
-    hi = len(LMarble)-1
-    pos=-1
-    while lo <= hi:
+def BinarySearch(LMarble,lo,hi,Target):
+    if lo <= hi:
           mid = int(lo + (hi-lo)/2)
-          if LMarble[mid][0] == Target:
-               pos = mid
-               for cd in range(lo,mid):
-                   if LMarble[cd][0] == Target:
-                        return cd
-               return pos
-          elif LMarble[mid][0] < Target:
-             lo = mid+1
+          if ((mid==0 and LMarble[mid] == Target) or(LMarble[mid] == Target and LMarble[mid-1]<LMarble[mid])):
+             return mid
+          elif LMarble[mid] < Target:
+             return BinarySearch(LMarble,mid+1,hi,Target)
           else:
-             hi = mid-1
-    return pos
+             return BinarySearch(LMarble,lo,mid-1,Target)
+    return -1
 if __name__ == '__main__':
     N=1
     Q =1
@@ -33,15 +26,18 @@ if __name__ == '__main__':
         LMarble = []
         LQuery = []
         for c in range(0,N):
-            LMarble.append([int(sys.stdin.readline().strip().split()[0]),c])
+            LMarble.append(int(sys.stdin.readline().strip().split()[0]))
         for c in range(0,Q):
             LQuery.append(int(sys.stdin.readline().strip().split()[0]))
-        print("CASE# "+str(numTC+1)+":")
-        LQuery.sort()
+        numTC +=1
+        print("CASE# "+str(numTC)+":")
+        LMarble.sort()
         for c in LQuery:
-            pos = BinarySearch(LMarble,c)
+            lo =0
+            hi = len(LMarble)-1
+            pos = BinarySearch(LMarble,lo,hi,c)
             if(pos!=-1):
-              print(str(c)+" found at "+str(pos+2))
+              print(str(c)+" found at "+str(pos+1))
             else:
               print(str(c)+" not found")
 
