@@ -218,11 +218,11 @@ class BinarySearchTree:
     def FindMinimumCos(self, NumYear,CuNode):
         if self.root:
            valchild = self.FindMaxCuNode(CuNode)
-           if(valchild!=None and ((CuNode.key-valchild.key>0)and(CuNode.key-valchild.key)<self.MinCos)):
+           if(valchild!=None and ((CuNode.key-valchild.key>0)and (CuNode.payload<valchild.payload) and (CuNode.key-valchild.key)<self.MinCos)):
                self.MinCos = CuNode.key-valchild.key
            if( CuNode.hasLeftChild()):
                self.FindMinimumCos(NumYear,CuNode.leftChild)
-           elif(CuNode.hasRightChild()):
+           if(CuNode.hasRightChild()):
                self.FindMinimumCos(NumYear,CuNode.rightChild)
 
 if __name__ == '__main__':
