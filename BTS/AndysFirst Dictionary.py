@@ -1,5 +1,6 @@
 __author__ = 'Binh Le'
 import sys
+import fileinput
 
 class TreeNode:
     def __init__(self,key,val,left=None,right=None,parent=None):
@@ -210,35 +211,37 @@ class BinarySearchTree:
     def OutWord(self,CurrNode):
         if self.root:
             print(CurrNode.payload)
-            if(CurrNode!=self.root):
-                print(CurrNode.parent.payload)
             if(CurrNode.hasRightChild()):
                 self.OutWord(self.findMin(CurrNode.rightChild))
-            if(CurrNode.parent!=None and CurrNode.parent.hasRightChild()and CurrNode.parent.rightChild!=CurrNode):
-                self.OutWord(self.findMin(CurrNode.parent.rightChild))
-def EncodeWord(Word):
-    LAscii = []
-    for c in Word:
-        if(c.isupper()):
-            c= c.lower()
-        LAscii.append(ord(c))
-    return LAscii
+            if(CurrNode.parent!=None and CurrNode.isLeftChild()):
+                self.OutWord(CurrNode.parent)
+
+
 def IsAlphaWord(word):
+    wr = ""
+    LAscii = []
     for cha in word:
-        if(cha.isalpha()==False):
-            return False
-    return True
+        if(cha.isalpha()==True):
+            if(cha.isupper()):
+                cha= cha.lower()
+            LAscii.append(ord(cha))
+            wr +=cha
+        else:
+            return wr,LAscii
+    return wr,LAscii
 
 if __name__ == '__main__':
-    LWordCode =[]
+    LWord =[]
     mytree = BinarySearchTree()
     lines = []
     while True:
-        line = sys.stdin.readline().rstrip().split()
+        line = sys.stdin.readline().split()
         if line:
             for word in line:
-                if(IsAlphaWord(word))==True:
-                    mytree.put(EncodeWord(word),word)
+                    wrd,LAscii = IsAlphaWord(word)
+                    if(wrd!=""):
+                        LWord.append(wrd)
+                        mytree.put(LAscii,wrd)
         else:
             break
     mytree.OutWord(mytree.findMin(mytree.root))
